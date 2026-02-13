@@ -11,6 +11,14 @@ A full-featured banking system built in **vanilla JavaScript** with a modular No
 
 ---
 
+## Preview
+
+<p align="center">
+  <img src="assets/dashboard-preview.png" alt="BankSys Dashboard Preview" width="100%" />
+</p>
+
+---
+
 ## Highlights
 
 - **10 banking functions** — create accounts, deposit, withdraw, transfer, calculate interest, retrieve transactions, freeze/unfreeze, daily limits, password validation, suspicious activity detection
@@ -43,6 +51,10 @@ Banking-System-JS/
 │       ├── interestService.js       #   Monthly compound interest
 │       └── securityService.js       #   Freeze, limits, passwords, alerts
 │
+├── assets/                          # Static assets
+│   └── dashboard-preview.png        #   Dashboard screenshot for README
+├── scripts/                         # Utility scripts
+│   └── screenshot.js                #   Captures dashboard screenshot
 ├── .gitignore
 ├── LICENSE
 ├── package.json
