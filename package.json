@@ -1,15 +1,22 @@
 {
-  "name": "lab5",
+  "name": "banking-system-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "A modular banking system with interactive dashboard — built in vanilla JavaScript",
+  "main": "src/index.js",
   "scripts": {
-    "app": "nodemon script.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "serve": "npx serve@latest public -l 3456"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "keywords": [
+    "banking",
+    "finance",
+    "javascript",
+    "dashboard"
+  ],
+  "author": "masy43",
+  "license": "MIT",
+  "devDependencies": {
     "nodemon": "^3.1.11"
   }
 }
